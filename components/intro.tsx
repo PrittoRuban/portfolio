@@ -30,6 +30,7 @@ export default function Intro() {
               type: "tween",
               duration: 0.2,
             }}
+            whileHover={{ scale: 1.05 }}
           >
             <Image
               src={photo}
@@ -52,6 +53,7 @@ export default function Intro() {
               delay: 0.1,
               duration: 0.7,
             }}
+            whileHover={{ rotate: [0, 10, -10, 10, -10, 0] }}
           >
             👋
           </motion.span>
@@ -62,6 +64,12 @@ export default function Intro() {
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 75,
+          delay: 0.1,
+          duration: 0.7,
+        }}
       >
         <span>Hello, I'm Pritto Ruban. </span>Aspiring{" "}
         <span className="font-bold">Software Engineer, Freelancer</span> and{" "}
@@ -78,7 +86,6 @@ export default function Intro() {
         }}
       >
         <div className="flex flex-wrap justify-center gap-3">
-          {" "}
           <Link
             href="#contact"
             className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
