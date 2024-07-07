@@ -12,7 +12,7 @@ const About = () => {
   return (
     <ChakraProvider>
       <div className="relative max-w-4xl mx-auto p-6" id="about" ref={ref}>
-        <div className="bg-[#d9d6ec] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#3b3761]"></div>
+        <div className="bg-[#d9d6ec] absolute top-[-1rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#3b3761]"></div>
         <motion.h1
           className="text-2xl font-bold text-center mb-8"
           initial={{ opacity: 0, y: -20 }}
