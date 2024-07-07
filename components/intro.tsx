@@ -61,7 +61,7 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -71,10 +71,11 @@ export default function Intro() {
           duration: 0.7,
         }}
       >
-        <span>Hello, I'm Pritto Ruban. </span>Aspiring{" "}
+        <span> I'm Pritto Ruban, </span>Aspiring{" "}
         <span className="font-bold">Software Engineer, Freelancer</span> and{" "}
-        <span className="font-bold">Competitive Programmer. </span>
-        Loves to Explore and Learn new things.
+        <span className="font-bold">Competitive Programmer. 🎯 </span>
+        In love with creative problem problem solving and building things that
+        make a difference. 📖
       </motion.h1>
 
       <motion.div
