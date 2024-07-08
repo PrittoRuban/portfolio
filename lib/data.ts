@@ -35,29 +35,21 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Freelancer",
+    location: "Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Create websites and web apps for clients. I've worked on projects landing pages and portfolio websites.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024 - till date",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Open source contributor",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I'll be working on open source projects. I'll be contributing to the projects that includes in my tech stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+    date: "2024 - till date",
+  }
 ] as const;
 
 export const projectsData = [
@@ -89,21 +81,19 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Express",
+  "Express.js",
+  "React",
+  "Node.js",
+  "Next.js",
+  "Tailwind",
   "MySQL",
   "PostgreSQL",
+  "Git",
+  "GitHub",
+  "Prisma",
+  "GraphQL",
   "Python",
   "Java",
   "C++",
-  "GitHub",
-  "Framer Motion",
 ] as const;

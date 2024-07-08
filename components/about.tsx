@@ -46,7 +46,7 @@ const About = () => {
           Technology, Chennai.
         </motion.p>
         <motion.p
-          className="sm:text-2xl font-bold mb-8"
+          className="sm:text-2xl font-semibold mb-8"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ delay: 1, duration: 0.5 }}
@@ -55,31 +55,31 @@ const About = () => {
           including{" "}
           <Link
             href="https://leetcode.com/u/prittoruban/"
-            className="text-blue-600 dark:text-blue-400"
+            className="!text-blue-600 dark:!text-blue-500"
             target="_blank"
           >
             Leetcode ⇗
           </Link>
-          ,{" "}
+          ,{"  "}
           <Link
             href="#"
-            className="text-blue-600 dark:text-blue-400"
+            className="!text-blue-600 dark:!text-blue-500"
             target="_blank"
           >
             Geeksforgeeks ⇗
           </Link>
-          ,{" "}
+          ,{"  "}
           <Link
             href="#"
-            className="text-blue-600 dark:text-blue-400"
+            className="!text-blue-600 dark:!text-blue-500"
             target="_blank"
           >
             Hackerrank ⇗
           </Link>
-          , and{" "}
+          , and{"  "}
           <Link
             href="#"
-            className="text-blue-600 dark:text-blue-400"
+            className="!text-blue-600 dark:!text-blue-500"
             target="_blank"
           >
             Skillrack ⇗
@@ -93,7 +93,7 @@ const About = () => {
           transition={{ delay: 1, duration: 0.5 }}
         >
           My approach to challenges and goals:{" "}
-          <span className="text-blue-600 dark:text-blue-400">
+          <span className="text-blue-600 dark:text-blue-500">
             Always striving, adapting, and celebrating successes along the way.
           </span>
         </motion.p>
