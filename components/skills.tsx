@@ -29,7 +29,6 @@ export default function Skills() {
       ref={ref}
       className="relative mb-24 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <div className="bg-[#fbe2e3] absolute top-[-1rem] -z-10 right-[11rem] h-[40.25rem] w-[40.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#2e2d2d]"></div>
       <SectionHeading>My skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 sm:gap-3 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
