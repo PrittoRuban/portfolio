@@ -62,7 +62,7 @@ const About = () => {
           </Link>
           ,{"  "}
           <Link
-            href="#"
+            href="https://www.geeksforgeeks.org/user/prittoruban/"
             className="!text-blue-600 dark:!text-blue-500"
             target="_blank"
           >
@@ -70,7 +70,7 @@ const About = () => {
           </Link>
           ,{"  "}
           <Link
-            href="#"
+            href="https://www.hackerrank.com/profile/PrittoRuban"
             className="!text-blue-600 dark:!text-blue-500"
             target="_blank"
           >
@@ -78,7 +78,7 @@ const About = () => {
           </Link>
           , and{"  "}
           <Link
-            href="#"
+            href="https://www.skillrack.com/faces/resume.xhtml?id=438898&key=61d8fe7f74d005af56334c549cb369255ccf8777"
             className="!text-blue-600 dark:!text-blue-500"
             target="_blank"
           >
