@@ -1,13 +1,14 @@
 import Header from "@/components/header";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, IBM_Plex_Sans } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/UI/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = IBM_Plex_Sans({ subsets: ["latin"], weight: ['400', '500', '600'], display: "swap" });
+
 
 export const metadata = {
   title: "Pritto Ruban | Portfolio",

@@ -19,7 +19,7 @@ const About = () => {
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
           transition={{ duration: 0.5 }}
         >
-          Wanna know more about me? You've come to the right place 🎓
+          Want to know more about me? You've come to the right place 🎓
         </motion.h1>
         <motion.p
           className="text-lg mb-4"
