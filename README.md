@@ -62,5 +62,5 @@ Follow me on [LinkedIn](https://www.linkedin.com/in/prittoruban/) and [GitHub](h
 
 Thank you for visiting my portfolio!
 
-Want to clone and make your own portfolio with this template? 
-Make sure to replace `prittoruban0609@gmail.com` to your own email in actions/sendEmail.ts, and the URL's, project, about, intro and footer with your actual details.
+#### Want to clone and make your own portfolio with this template? 
+- Make sure to replace `prittoruban0609@gmail.com` to your own email in actions/sendEmail.ts, and the URL's, project, about, intro and footer with your actual details.
