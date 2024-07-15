@@ -15,8 +15,8 @@ This is my personal portfolio website built using Next.js, Tailwind CSS, and Fra
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/PrittoRuban/portfolio
+   cd portfolio
    ```
 
 2. Install dependencies:
@@ -56,11 +56,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Pritto Ruban - [prittoruban@gmail.com](mailto:prittoruban@gmail.com)
 
-Follow me on [LinkedIn](https://www.linkedin.com/in/yourprofile/) and [GitHub](https://github.com/yourusername).
+Follow me on [LinkedIn](https://www.linkedin.com/in/prittoruban/) and [GitHub](https://github.com/PrittoRuban).
 
 ---
 
 Thank you for visiting my portfolio!
 
-
-Make sure to replace `yourusername`, `your-portfolio`, `your_api_key_here`, `your_email_here`, and the LinkedIn/GitHub URLs with your actual details.
+Want to clone and make your own portfolio with this template? 
+Make sure to replace `prittoruban0609@gmail.com` to your own email in actions/sendEmail.ts, and the URL's, project, about, intro and footer with your actual details.
