@@ -35,8 +35,8 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Technical Content Engineer",
-    location: "Remote",
+    title: "Technical Content Engineer Intern at Kalvium",
+    location: "Coimbatore, India (Remote)",
     description:
       "Role Overview: Content Creation, Collaboration, Technical Documentation, Quality Assurance, Learning and Development, Feedback Integration, Review Learning Contents.",
     icon: React.createElement(SiWorkplace),
