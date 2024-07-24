@@ -1,8 +1,10 @@
 import React from "react";
 import corpcommentImg from "@/public/blogApp.png";
-import rmtdevImg from "@/public/eCommerse.png";
-import wordanalyticsImg from "@/public/TinDog.png";
-import { SiFreelancer, SiOpensourcehardware } from "react-icons/si";
+import {
+  SiFreelancer,
+  SiOpensourcehardware,
+  SiWorkplace,
+} from "react-icons/si";
 
 export const links = [
   {
@@ -33,12 +35,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Freelancer",
+    title: "Technical Content Engineer",
     location: "Remote",
     description:
-      "Create websites and web apps for clients. I've worked on projects landing pages and portfolio websites, ensuring they are responsive and accessible",
-    icon: React.createElement(SiFreelancer),
-    date: "2024 - till date",
+      "Role Overview: Content Creation, Collaboration, Technical Documentation, Quality Assurance, Learning and Development, Feedback Integration, Review Learning Contents.",
+    icon: React.createElement(SiWorkplace),
+    date: "2024 Jul - Present",
   },
   {
     title: "Open source contributor",
@@ -46,7 +48,15 @@ export const experiencesData = [
     description:
       "I'll be working on open source projects. I'll be contributing to the projects that includes in my tech stack, and also learning new technologies.",
     icon: React.createElement(SiOpensourcehardware),
-    date: "2024 - till date",
+    date: "2024 May - Present",
+  },
+  {
+    title: "Freelancer",
+    location: "Remote",
+    description:
+      "Create websites and web apps for clients. I've worked on projects landing pages and portfolio websites, ensuring they are responsive and accessible.",
+    icon: React.createElement(SiFreelancer),
+    date: "2024 Feb - Present",
   },
 ] as const;
 

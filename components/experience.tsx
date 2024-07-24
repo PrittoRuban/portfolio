@@ -16,9 +16,12 @@ export default function Experience() {
   };
 
   return (
-    <section id="experience" ref={ref} className="relative scroll-mt-28 mb-28 sm:mb-40 max-w-screen-lg">
-      
-      <div className="bg-[#fbe2e3] absolute top-[-1rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#523131]"></div>
+    <section
+      id="experience"
+      ref={ref}
+      className="relative scroll-mt-28 mb-28 sm:mb-40 max-w-screen-md"
+    >
+      <div className="bg-[#fbe2e3] absolute top-[-1rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#301a1a]"></div>
       <SectionHeading>My Experience</SectionHeading>
       <div className="space-y-8">
         {experiencesData.map((item, index) => (

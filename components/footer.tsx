@@ -7,14 +7,14 @@ const Footer = () => {
     <footer className="relative  text-black dark:text-white  py-8 overflow-hidden">
       <div className="bg-[#fbe2e3] absolute -z-10 left-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#4b2c2c]"></div>
 
-      <div className="container mx-auto px-6 flex flex-col items-center md:flex-row md:justify-between md:gap-6 relative z-10">
+      <div className="container mx-auto px-6 flex flex-col items-center md:flex-row md:justify-between md:gap-6 z-10 max-w-screen-lg">
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold mb-4">
             Let's build something together
           </h2>
           <p className="mb-4">
             Feel free to reach out if you're looking for a developer, have a
-            question or just want to connect
+            question or just want to connect 🎯
           </p>
         </div>
         <div className="flex mt-4 md:mt-0 space-x-6">
@@ -58,7 +58,11 @@ const Footer = () => {
         </p>
         <span className="text-sm">
           Made with ❤️ By{" "}
-          <a href="https://www.linkedin.com/in/prittoruban/" target="_blank" className=" hover:text-blue-500">
+          <a
+            href="https://www.linkedin.com/in/prittoruban/"
+            target="_blank"
+            className=" hover:text-blue-500"
+          >
             Pritto Ruban
           </a>
         </span>
