@@ -7,13 +7,16 @@ import ThemeSwitch from "@/components/UI/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
-const inter = IBM_Plex_Sans({ subsets: ["latin"], weight: ['400', '500', '600'], display: "swap" });
-
+const inter = IBM_Plex_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Pritto Ruban | Portfolio",
   description:
-    "Pritto Ruban is a freelancer and aspiring Software Engineer. Problem Solver and Competitive Programmer.",
+    "Pritto Ruban is a Student, Engineer, Developer, and a Tech Enthusiast. Aspiring Software Engineer, Freelancer, and Competitive Programmer. 🎯 In love with creative problem-solving and building things.",
 };
 
 export default function RootLayout({
