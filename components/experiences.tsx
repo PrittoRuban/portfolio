@@ -6,7 +6,7 @@ import Experience from "@/components/UI/experience";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Experiences() {
-  const { ref } = useSectionInView("Experience", 0.5);
+  const { ref } = useSectionInView("Experiences", 0.5);
 
   return (
     <section
