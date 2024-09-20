@@ -1,5 +1,6 @@
 import React from "react";
 import corpcommentImg from "@/public/blogApp.png";
+import reserveNow from "@/public/reservenow.png";
 import {
   SiFreelancer,
   SiOpensourcehardware,
@@ -67,6 +68,13 @@ export const projectsData = [
       "I've developed a MERN (MongoDB, Express.js, React.js, Node.js) stack Blog application. This application showcases my proficiency in full-stack web development",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "Express.js"],
     imageUrl: corpcommentImg,
+  },
+  {
+    title: "ReserveNow",
+    description:
+      "ReserveNow is a web app for restaurant management and ordering, allowing users to add restaurants, place orders, and track them securely. Built with Next.js, TypeScript, and Tailwind CSS, it integrates Auth0 for authentication, Cloudinary for media management, Stripe for payments, and features an AI chatbot via Voiceflow for assistance.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Cloudinary"],
+    imageUrl: reserveNow,
   },
 ] as const;
 
