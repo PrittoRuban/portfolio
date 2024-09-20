@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  appUrl, 
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -22,7 +23,7 @@ export default function Project({
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
-    <a href="https://pritto-blog.onrender.com/" target="_blank">
+    <a href= {appUrl} target="_blank">
       <motion.div
         ref={ref}
         style={{

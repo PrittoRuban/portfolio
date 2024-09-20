@@ -68,13 +68,15 @@ export const projectsData = [
       "I've developed a MERN (MongoDB, Express.js, React.js, Node.js) stack Blog application. This application showcases my proficiency in full-stack web development",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "Express.js"],
     imageUrl: corpcommentImg,
+    appUrl: "https://pritto-blog.onrender.com/",
   },
   {
     title: "ReserveNow",
     description:
-      "ReserveNow is a web app for restaurant management and ordering, allowing users to add restaurants, place orders, and track them securely. Built with Next.js, TypeScript, and Tailwind CSS, it integrates Auth0 for authentication, Cloudinary for media management, Stripe for payments, and features an AI chatbot via Voiceflow for assistance.",
-    tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Cloudinary"],
+      "ReserveNow is a restaurant management app for adding restaurants, placing orders, and tracking them securely.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "MongoDB", "Cloudinary", "ChatBot", "Voiceflow"],
     imageUrl: reserveNow,
+    appUrl: "https://reservenow.vercel.app",
   },
 ] as const;
 

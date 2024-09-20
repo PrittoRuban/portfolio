@@ -12,11 +12,15 @@ export default function Projects() {
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My projects</SectionHeading>
-      <div>
+      <div className="space-y-6">
+        {" "}
+        {/* Vertical spacing between each row */}
         {projectsData.map((project, index) => (
-          <React.Fragment key={index}>
+          <div key={index} className="w-full">
+            {" "}
+            {/* Ensuring full width for each tile */}
             <Project {...project} />
-          </React.Fragment>
+          </div>
         ))}
       </div>
     </section>
