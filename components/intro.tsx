@@ -72,7 +72,7 @@ export default function Intro() {
         }}
       >
         <span> I'm Pritto Ruban, </span>Aspiring{" "}
-        <span className="font-bold">Software Engineer, Freelancer</span> and{" "}
+        <span className="font-bold">Software Engineer, Open Source Enthusiast</span> and{" "}
         <span className="font-bold">Competitive Programmer. 🎯 </span>
         In love with creative problem solving and building things that
         make a difference. 📖
