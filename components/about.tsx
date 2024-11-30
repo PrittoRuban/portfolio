@@ -44,8 +44,8 @@ const About = () => {
             Scored 87% in 12th grade at Vidya Mandir Matric Hr. Sec. School
           </Text>
         </motion.div>
-
-        {/* Achievements Section */}
+        
+        {/*
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
@@ -55,7 +55,6 @@ const About = () => {
             🏆 Achievements
           </Heading>
 
-          {/* Hackathon Achievement */}
           <Text fontSize="lg" mb={4}>
             <Link href="https://reservenow.vercel.app" isExternal>
               <strong>Hackathon - Full Stack Development</strong> ⇗
@@ -65,7 +64,6 @@ const About = () => {
             College Hackathon (Aug 2024).
           </Text>
 
-          {/* Other Achievements */}
           <Text fontSize="lg" mb={4}>
             Secured <strong>1st place</strong> in Coding Contest at SRM Eswari
             Engineering College (Aug 2024).
@@ -77,7 +75,8 @@ const About = () => {
             Sairam Institute of Technology (Feb 2024).
           </Text>
         </motion.div>
-
+        */}
+        
         {/* Coding Platforms */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
