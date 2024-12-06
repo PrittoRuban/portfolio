@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FaPaperPlane } from "react-icons/fa";
-import { useFormStatus } from "react-dom";
+
+// Mock implementation of useFormStatus
+function useFormStatus() {
+  const [pending, setPending] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setPending(false), 2000);
+    setPending(true);
+    return () => clearTimeout(timer);
+  }, []);
+
+  return { pending };
+}
 
 export default function SubmitBtn() {
   const { pending } = useFormStatus();
