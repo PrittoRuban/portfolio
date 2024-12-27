@@ -36,10 +36,10 @@ export default function Contact() {
         💬{" "}
         <a
           className="underline"
-          href="mailto:prittoruban@gmail.com"
+          href="mailto:prittoprogrammer@gmail.com"
           target="_blank"
         >
-          prittoruban@gmail.com
+          prittoprogrammer@gmail.com
         </a>{" "}
         or through this form.
       </p>
