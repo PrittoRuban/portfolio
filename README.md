@@ -54,7 +54,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-Pritto Ruban - [prittoruban@gmail.com](mailto:prittoprogrammer@gmail.com)
+Pritto Ruban - [prittoprogrammer@gmail.com](mailto:prittoprogrammer@gmail.com)
 
 Follow me on [LinkedIn](https://www.linkedin.com/in/prittoruban/) and [GitHub](https://github.com/PrittoRuban).
 
@@ -63,4 +63,4 @@ Follow me on [LinkedIn](https://www.linkedin.com/in/prittoruban/) and [GitHub](h
 Thank you for visiting my portfolio!
 
 #### Want to clone and make your own portfolio with this template? 
-- Make sure to replace `prittoruban0609@gmail.com` to your own email in actions/sendEmail.ts, and the URL's, project, about, intro and footer with your actual details.
+- Make sure to replace `prittoprogrammer@gmail.com` to your own email in actions/sendEmail.ts, and the URL's, project, about, intro and footer with your actual details.
