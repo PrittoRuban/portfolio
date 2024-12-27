@@ -54,7 +54,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-Pritto Ruban - [prittoruban@gmail.com](mailto:prittoruban@gmail.com)
+Pritto Ruban - [prittoruban@gmail.com](mailto:prittoprogrammer@gmail.com)
 
 Follow me on [LinkedIn](https://www.linkedin.com/in/prittoruban/) and [GitHub](https://github.com/PrittoRuban).
 
