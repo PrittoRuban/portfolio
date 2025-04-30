@@ -173,7 +173,7 @@ const About: React.FC = () => {
         </motion.div>
 
         {/* Education Section */}
-        <motion.div variants={itemVariants}>
+        {/* <motion.div variants={itemVariants}>
           <h3 className="text-2xl font-bold mb-6 text-gray-800 dark:text-gray-100 flex items-center">
             <span className="mr-2">🎓</span> Education
           </h3>
@@ -198,7 +198,7 @@ const About: React.FC = () => {
           </div>
         </motion.div>
 
-        {/* Achievements Section */}
+         Achievements Section 
         <motion.div variants={itemVariants}>
           <h3 className="text-2xl font-bold mb-6 text-gray-800 dark:text-gray-100 flex items-center">
             <span className="mr-2">🏆</span> Achievements
@@ -225,7 +225,7 @@ const About: React.FC = () => {
                 <p className="text-gray-700 dark:text-gray-300 mt-2">
                   {achievement.description}
                 </p>
-                {/* {achievement.url && (
+                 {achievement.url && (
                   <Link
                     href={achievement.url}
                     target="_blank"
@@ -246,11 +246,11 @@ const About: React.FC = () => {
                       ></path>
                     </svg>
                   </Link>
-                )} */}
+                )} 
               </motion.div>
             ))} 
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Coding Platforms */}
         {/* <motion.div variants={itemVariants}>

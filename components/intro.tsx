@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { IoMdPlanet } from "react-icons/io";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import photo from "@/public/MyPhoto.jpg";
+import photo from "@/public/MyPhoto.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -59,7 +59,7 @@ export default function Intro() {
               height="162"
               quality="100"
               priority={true}
-              className="h-28 w-28 rounded-full object-cover border-[0.35rem] border-white shadow-xl dark:border-gray-700"
+              className="h-28 w-28 sm:w-36 sm:h-36 rounded-full object-cover border-[0.35rem] border-white shadow-xl dark:border-gray-700"
             />
           </motion.div>
 
@@ -75,7 +75,7 @@ export default function Intro() {
             }}
             whileHover={{ rotate: [0, 15, -15, 15, -15, 0], scale: 1.2 }}
           >
-            👋
+            ✨
           </motion.span>
 
           <AnimatePresence>
