@@ -28,7 +28,6 @@ const Projects: React.FC = () => {
       tags: [
         "Next.js",
         "Machine Learning",
-        "SQL",
         "Cybersecurity",
         "Problem Solving",
       ],
@@ -40,7 +39,7 @@ const Projects: React.FC = () => {
       description:
         "Developed a fully responsive, feature-rich website for the department's symposium. Attracted 1500+ views and registered 150+ participants. Provided a centralized platform for event details, schedules, speaker profiles, and registration updates, enhancing event outreach.",
       duration: "Jan 2025 - Mar 2025",
-      tags: ["Next.js", "Tailwind CSS"],
+      tags: ["Next.js", "Tailwind CSS" ],
       imageUrl: "/Symposium.png",
       appUrl: "https://cyberxelerate2k25.vercel.app",
     },
@@ -50,10 +49,7 @@ const Projects: React.FC = () => {
         "A fully responsive blog application with seamless user experience. Implemented admin features for creating, editing, and deleting blog posts, and user features for reading and commenting. Managed state with React Redux and secured authentication using JWT.",
       duration: "Apr 2024 - Jun 2024",
       tags: [
-        "React.js",
-        "Node.js",
-        "MongoDB",
-        "Express.js",
+        "MERN Stack",
         "Tailwind CSS",
         "React Redux",
       ],
