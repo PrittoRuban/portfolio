@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin, BsGithub, BsCode } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { IoMdPlanet } from "react-icons/io";
 import { useSectionInView } from "@/lib/hooks";
@@ -227,6 +227,17 @@ export default function Intro() {
           <motion.div whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.95 }}>
             <a
               className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full cursor-pointer shadow-md hover:shadow-xl transition-shadow borderBlack dark:bg-white/10 dark:text-white/70 dark:hover:text-white"
+              href="https://leetcode.com/u/prittoruban/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LeetCode Profile"
+            >
+              <BsCode />
+            </a>
+          </motion.div>
+          {/* <motion.div whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.95 }}>
+            <a
+              className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full cursor-pointer shadow-md hover:shadow-xl transition-shadow borderBlack dark:bg-white/10 dark:text-white/70 dark:hover:text-white"
               href="#projects"
               onClick={() => {
                 setActiveSection("Projects");
@@ -236,7 +247,7 @@ export default function Intro() {
             >
               <IoMdPlanet />
             </a>
-          </motion.div>
+          </motion.div> */}
         </div>
       </motion.div>
     </section>
