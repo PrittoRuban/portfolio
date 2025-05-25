@@ -28,7 +28,7 @@ const Experiences: React.FC = () => {
       description:
         "Creating technical educational content, collaborating with subject matter experts, developing comprehensive documentation, ensuring quality standards, continuously learning new technologies, integrating feedback, and reviewing learning materials.",
       icon: React.createElement(SiWorkplace),
-      date: "Jul 2024 - Present",
+      date: "Jul 2024 - Nov 2024",
       skills: [
         "Technical Writing",
         "Documentation",
